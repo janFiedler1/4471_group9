@@ -1,7 +1,3 @@
-document.getElementById("feed-tab").addEventListener("click", switchTab(event,"feed");
-document.getElementById("sub-tab").addEventListener("click", switchTab(event,"subscribe"));
-
-
 function switchTab(evt, tabName) {
   var i, tabcontent, tablinks;
   tabcontent = document.getElementsByClassName("tabcontent");
