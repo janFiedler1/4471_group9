@@ -11,7 +11,7 @@
   margin: 4px 200px;
   cursor: pointer;
 } 
-.button {
+.tablinks {
   -webkit-border-radius: 0px 0px 20px 0px;
   -moz-border-radius: 0px 0px 20px 0px;
   border-radius: 0px 0px 20px 0px;
@@ -26,6 +26,13 @@
   margin: 1px 1px;
   cursor: pointer;
   background-color: #1bf51b;
+  
+}
+.tablinks:hover{
+  background-color: #27d417;
+}
+.tablinks.active {
+  background-color: #158000;
 }
 .subbed{
   -webkit-border-radius: 20px 20px 20px 20px;
@@ -49,6 +56,7 @@ li{
   margin: 10px 0;
 }  
 .byte{
+  display: none;
   padding-top: 10px;
   padding-bottom: 30px;
   background-color:#c7ffc7;
@@ -66,3 +74,4 @@ strong{
   font-size: 25pt;
   font-family: Arial;
 }
+
